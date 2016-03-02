@@ -1,0 +1,30 @@
+group 'au.org.ala'
+version '1.0'
+
+apply plugin: 'java'
+apply plugin: 'maven'
+
+repositories {
+    maven {
+        url "http://nexus.ala.org.au/nexus/content/groups/public"
+    }
+}
+
+sourceCompatibility = 1.7
+
+repositories {
+    mavenCentral()
+}
+
+uploadArchives {
+    repositories {
+        mavenDeployer {
+            repository(url: 'http://nexus.ala.org.au/content/repositories/releases/') {
+                authentication(userName: System.env['TRAVIS_DEPLOY_USERNAME'], password: System.env['TRAVIS_DEPLOY_PASSWORD'])
+            }
+            snapshotRepository(url: 'http://nexus.ala.org.au/content/repositories/snapshots/') {
+                authentication(userName: System.env['TRAVIS_DEPLOY_USERNAME'], password: System.env['TRAVIS_DEPLOY_PASSWORD'])
+            }
+        }
+    }
+}

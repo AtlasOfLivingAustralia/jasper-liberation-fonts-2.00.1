@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<fontFamilies>
+
+	<fontFamily name="Liberation Sans">
+		<normal>fonts/liberation/2_00_1/LiberationSans-Regular.ttf</normal>
+		<bold>fonts/liberation/2_00_1/LiberationSans-Bold.ttf</bold>
+		<italic>fonts/liberation/2_00_1/LiberationSans-Italic.ttf</italic>
+		<boldItalic>fonts/liberation/2_00_1/LiberationSans-BoldItalic.ttf</boldItalic>
+		<pdfEncoding>Identity-H</pdfEncoding>
+		<pdfEmbedded>true</pdfEmbedded>
+		<exportFonts>
+			<export key="net.sf.jasperreports.html">'Liberation Sans', Arial, Helvetica, sans-serif</export>
+			<export key="net.sf.jasperreports.xhtml">'Liberation Sans', Arial, Helvetica, sans-serif</export>
+		</exportFonts>
+		<!--
+		<locales>
+			<locale>en_US</locale>
+			<locale>de_DE</locale>
+		</locales>
+		-->
+	</fontFamily>
+
+	<fontFamily name="Liberation Serif">
+		<normal>fonts/liberation/2_00_1/LiberationSerif-Regular.ttf</normal>
+		<bold>fonts/liberation/2_00_1/LiberationSerif-Bold.ttf</bold>
+		<italic>fonts/liberation/2_00_1/LiberationSerif-Italic.ttf</italic>
+		<boldItalic>fonts/liberation/2_00_1/LiberationSerif-BoldItalic.ttf</boldItalic>
+		<pdfEncoding>Identity-H</pdfEncoding>
+		<pdfEmbedded>true</pdfEmbedded>
+		<exportFonts>
+			<export key="net.sf.jasperreports.html">'Liberation Serif', 'Times New Roman', Times, serif</export>
+			<export key="net.sf.jasperreports.xhtml">'Liberation Serif', 'Times New Roman', Times, serif</export>
+		</exportFonts>
+	</fontFamily>
+
+	<fontFamily name="Liberation Mono">
+		<normal>fonts/liberation/2_00_1/LiberationMono-Regular.ttf</normal>
+		<bold>fonts/liberation/2_00_1/LiberationMono-Bold.ttf</bold>
+		<italic>fonts/liberation/2_00_1/LiberationMono-Italic.ttf</italic>
+		<boldItalic>fonts/liberation/2_00_1/LiberationMono-BoldItalic.ttf</boldItalic>
+		<pdfEncoding>Identity-H</pdfEncoding>
+		<pdfEmbedded>true</pdfEmbedded>
+		<exportFonts>
+			<export key="net.sf.jasperreports.html">'Liberation Mono', 'Courier New', Courier, monospace</export>
+			<export key="net.sf.jasperreports.xhtml">'Liberation Mono', 'Courier New', Courier, monospace</export>
+		</exportFonts>
+	</fontFamily>
+
+	<!--
+		Mapping Java logical fonts, for the sake of HTML export only.
+	-->
+	
+	<fontFamily name="SansSerif">
+		<exportFonts>
+			<export key="net.sf.jasperreports.html">'Liberation Sans', Arial, Helvetica, sans-serif</export>
+			<export key="net.sf.jasperreports.xhtml">'Liberation Sans', Arial, Helvetica, sans-serif</export>
+		</exportFonts>
+	</fontFamily>
+	<fontFamily name="Serif">
+		<exportFonts>
+			<export key="net.sf.jasperreports.html">'Liberation Serif', 'Times New Roman', Times, serif</export>
+			<export key="net.sf.jasperreports.xhtml">'Liberation Serif', 'Times New Roman', Times, serif</export>
+		</exportFonts>
+	</fontFamily>
+	<fontFamily name="Monospaced">
+		<exportFonts>
+			<export key="net.sf.jasperreports.html">'Liberation Mono', 'Courier New', Courier, monospace</export>
+			<export key="net.sf.jasperreports.xhtml">'Liberation Mono', 'Courier New', Courier, monospace</export>
+		</exportFonts>
+	</fontFamily>
+
+</fontFamilies>
