@@ -8,13 +8,10 @@ repositories {
     maven {
         url "http://nexus.ala.org.au/nexus/content/groups/public"
     }
+    mavenCentral()
 }
 
 sourceCompatibility = 1.7
-
-repositories {
-    mavenCentral()
-}
 
 uploadArchives {
     repositories {
