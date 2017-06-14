@@ -2,6 +2,45 @@
 
 <fontFamilies>
 
+	<fontFamily name="Roboto">
+		<normal>fonts/Roboto/Roboto-Regular.ttf</normal>
+		<bold>fonts/Roboto/Roboto-Bold.ttf</bold>
+		<italic>fonts/Roboto/Roboto-Italic.ttf</italic>
+		<boldItalic>fonts/Roboto/Roboto-BoldItalic.ttf</boldItalic>
+		<pdfEncoding>Identity-H</pdfEncoding>
+		<pdfEmbedded>true</pdfEmbedded>
+		<exportFonts>
+			<export key="net.sf.jasperreports.html">'Roboto', Arial, Helvetica, sans-serif</export>
+			<export key="net.sf.jasperreports.xhtml">'Roboto', Arial, Helvetica, sans-serif</export>
+		</exportFonts>
+	</fontFamily>
+
+	<fontFamily name="Roboto Mono">
+		<normal>fonts/Roboto_Mono/RobotoMono-Regular.ttf</normal>
+		<bold>fonts/Roboto_Mono/RobotoMono-Bold.ttf</bold>
+		<italic>fonts/Roboto_Mono/RobotoMono-Italic.ttf</italic>
+		<boldItalic>fonts/Roboto_Mono/RobotoMono-BoldItalic.ttf</boldItalic>
+		<pdfEncoding>Identity-H</pdfEncoding>
+		<pdfEmbedded>true</pdfEmbedded>
+		<exportFonts>
+			<export key="net.sf.jasperreports.html">'Roboto Mono', 'Courier New', Courier, monospace</export>
+			<export key="net.sf.jasperreports.xhtml">'Roboto Mono', 'Courier New', Courier, monospace</export>
+		</exportFonts>
+	</fontFamily>
+
+	<fontFamily name="Roboto Serif">
+		<normal>fonts/Roboto_Slab/RobotoSlab-Regular.ttf</normal>
+		<bold>fonts/Roboto_Slab/RobotoSlab-Bold.ttf</bold>
+		<italic>fonts/Roboto_Slab/RobotoSlab-Light.ttf</italic>
+		<boldItalic>fonts/Roboto_Slab/RobotoSlab-Thin.ttf</boldItalic>
+		<pdfEncoding>Identity-H</pdfEncoding>
+		<pdfEmbedded>true</pdfEmbedded>
+		<exportFonts>
+			<export key="net.sf.jasperreports.html">'Roboto Serif', 'Times New Roman', Times, serif</export>
+			<export key="net.sf.jasperreports.xhtml">'Roboto Serif', 'Times New Roman', Times, serif</export>
+		</exportFonts>
+	</fontFamily>
+
 	<fontFamily name="Liberation Sans">
 		<normal>fonts/liberation/2_00_1/LiberationSans-Regular.ttf</normal>
 		<bold>fonts/liberation/2_00_1/LiberationSans-Bold.ttf</bold>
@@ -53,20 +92,20 @@
 	
 	<fontFamily name="SansSerif">
 		<exportFonts>
-			<export key="net.sf.jasperreports.html">'Liberation Sans', Arial, Helvetica, sans-serif</export>
-			<export key="net.sf.jasperreports.xhtml">'Liberation Sans', Arial, Helvetica, sans-serif</export>
+			<export key="net.sf.jasperreports.html">Roboto, Arial, Helvetica, sans-serif</export>
+			<export key="net.sf.jasperreports.xhtml">Roboto, Arial, Helvetica, sans-serif</export>
 		</exportFonts>
 	</fontFamily>
 	<fontFamily name="Serif">
 		<exportFonts>
-			<export key="net.sf.jasperreports.html">'Liberation Serif', 'Times New Roman', Times, serif</export>
-			<export key="net.sf.jasperreports.xhtml">'Liberation Serif', 'Times New Roman', Times, serif</export>
+			<export key="net.sf.jasperreports.html">'Roboto Serif', 'Times New Roman', Times, serif</export>
+			<export key="net.sf.jasperreports.xhtml">'Roboto Serif', 'Times New Roman', Times, serif</export>
 		</exportFonts>
 	</fontFamily>
 	<fontFamily name="Monospaced">
 		<exportFonts>
-			<export key="net.sf.jasperreports.html">'Liberation Mono', 'Courier New', Courier, monospace</export>
-			<export key="net.sf.jasperreports.xhtml">'Liberation Mono', 'Courier New', Courier, monospace</export>
+			<export key="net.sf.jasperreports.html">'Roboto Mono', 'Courier New', Courier, monospace</export>
+			<export key="net.sf.jasperreports.xhtml">'Roboto Mono', 'Courier New', Courier, monospace</export>
 		</exportFonts>
 	</fontFamily>
 
