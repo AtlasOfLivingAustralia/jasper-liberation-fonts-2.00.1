@@ -2,26 +2,6 @@ group 'au.org.ala'
 version '1.2-SNAPSHOT'
 
 apply plugin: 'java'
-apply plugin: 'maven'
-
-repositories {
-    maven {
-        url "http://nexus.ala.org.au/nexus/content/groups/public"
-    }
-    mavenCentral()
-}
+apply from: 'https://raw.githubusercontent.com/AtlasOfLivingAustralia/travis-build-configuration/master/travis_gradle_java_publish.gradle'
 
 sourceCompatibility = 1.7
-
-uploadArchives {
-    repositories {
-        mavenDeployer {
-            repository(url: 'http://nexus.ala.org.au/content/repositories/releases/') {
-                authentication(userName: System.env['TRAVIS_DEPLOY_USERNAME'], password: System.env['TRAVIS_DEPLOY_PASSWORD'])
-            }
-            snapshotRepository(url: 'http://nexus.ala.org.au/content/repositories/snapshots/') {
-                authentication(userName: System.env['TRAVIS_DEPLOY_USERNAME'], password: System.env['TRAVIS_DEPLOY_PASSWORD'])
-            }
-        }
-    }
-}
