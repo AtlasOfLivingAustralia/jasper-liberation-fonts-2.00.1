@@ -41,6 +41,19 @@
 		</exportFonts>
 	</fontFamily>
 
+	<fontFamily name="Raleway">
+		<normal>fonts/Raleway/Raleway-Regular.ttf</normal>
+		<italic>fonts/Raleway/Raleway-Italic.ttf</italic>
+		<bold>fonts/Raleway/Raleway-Bold.ttf</bold>
+		<boldItalic>fonts/Raleway/Raleway-BoldItalic.ttf</boldItalic>
+		<pdfEncoding>Identity-H</pdfEncoding>
+		<pdfEmbedded>true</pdfEmbedded>
+		<exportFonts>
+			<export key="net.sf.jasperreports.html">'Raleway', Arial, Helvetica, sans-serif</export>
+			<export key="net.sf.jasperreports.xhtml">'Raleway', Arial, Helvetica, sans-serif</export>
+		</exportFonts>
+	</fontFamily>
+
 	<fontFamily name="Liberation Sans">
 		<normal>fonts/liberation/2_00_1/LiberationSans-Regular.ttf</normal>
 		<bold>fonts/liberation/2_00_1/LiberationSans-Bold.ttf</bold>
@@ -89,7 +102,7 @@
 	<!--
 		Mapping Java logical fonts, for the sake of HTML export only.
 	-->
-	
+
 	<fontFamily name="SansSerif">
 		<exportFonts>
 			<export key="net.sf.jasperreports.html">Roboto, Arial, Helvetica, sans-serif</export>
